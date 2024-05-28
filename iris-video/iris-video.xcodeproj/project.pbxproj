@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28212C4C2C0209DA0069D8B1 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28212C4B2C0209DA0069D8B1 /* VideoPlayerView.swift */; };
-		284ECDC42BFF9147001969E8 /* ggml-small.bin in Resources */ = {isa = PBXBuildFile; fileRef = 284ECDC32BFF9147001969E8 /* ggml-small.bin */; };
 		284ECDC62BFF9BBA001969E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284ECDC52BFF9BBA001969E8 /* ContentView.swift */; };
 		28B72DDB2BFCA6D30089CF15 /* iris_videoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72DDA2BFCA6D30089CF15 /* iris_videoApp.swift */; };
-		28B72DDD2BFCA6D30089CF15 /* VideoPlayerGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72DDC2BFCA6D30089CF15 /* VideoPlayerGestures.swift */; };
 		28B72DDF2BFCA6D40089CF15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B72DDE2BFCA6D40089CF15 /* Assets.xcassets */; };
 		28B72DE22BFCA6D40089CF15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B72DE12BFCA6D40089CF15 /* Preview Assets.xcassets */; };
 		28B72DEC2BFCA6D40089CF15 /* iris_videoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B72DEB2BFCA6D40089CF15 /* iris_videoTests.swift */; };
@@ -37,12 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28212C4B2C0209DA0069D8B1 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
-		284ECDC32BFF9147001969E8 /* ggml-small.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = "ggml-small.bin"; sourceTree = "<group>"; };
 		284ECDC52BFF9BBA001969E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28B72DD72BFCA6D30089CF15 /* iris-video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iris-video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B72DDA2BFCA6D30089CF15 /* iris_videoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iris_videoApp.swift; sourceTree = "<group>"; };
-		28B72DDC2BFCA6D30089CF15 /* VideoPlayerGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerGestures.swift; sourceTree = "<group>"; };
 		28B72DDE2BFCA6D40089CF15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B72DE12BFCA6D40089CF15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28B72DE72BFCA6D40089CF15 /* iris-videoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iris-videoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,9 +96,6 @@
 			children = (
 				28B72DDA2BFCA6D30089CF15 /* iris_videoApp.swift */,
 				284ECDC52BFF9BBA001969E8 /* ContentView.swift */,
-				28B72DDC2BFCA6D30089CF15 /* VideoPlayerGestures.swift */,
-				28212C4B2C0209DA0069D8B1 /* VideoPlayerView.swift */,
-				284ECDC32BFF9147001969E8 /* ggml-small.bin */,
 				28B72DDE2BFCA6D40089CF15 /* Assets.xcassets */,
 				28B72DE02BFCA6D40089CF15 /* Preview Content */,
 			);
@@ -246,7 +237,6 @@
 			files = (
 				28B72DE22BFCA6D40089CF15 /* Preview Assets.xcassets in Resources */,
 				28B72DDF2BFCA6D40089CF15 /* Assets.xcassets in Resources */,
-				284ECDC42BFF9147001969E8 /* ggml-small.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B72DDD2BFCA6D30089CF15 /* VideoPlayerGestures.swift in Sources */,
 				28B72DDB2BFCA6D30089CF15 /* iris_videoApp.swift in Sources */,
 				284ECDC62BFF9BBA001969E8 /* ContentView.swift in Sources */,
-				28212C4C2C0209DA0069D8B1 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
